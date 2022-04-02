@@ -1,0 +1,141 @@
+/* 版心1240 */
+.w {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* 顶部盒子 */
+.shortcut {
+    height: 50px;
+    background-color: #eee;
+}
+
+/* logo部分 */
+.shortcut .logo {
+    line-height: 50px;
+}
+
+.shortcut .logo h1{
+    font-weight: normal;
+    font-size: 20px;
+    
+}
+
+.iconfont.icon {
+    display: block;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    background-color: #fff;
+    font-size: 20px;
+    color: #ccc;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+
+/* 搜索栏 */
+.searchbar {
+    width: 200px;
+    height: 40px;
+    background-color: #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+    margin-left: 30px;
+}
+
+.searchbar i {
+    font-size: 20px;
+    padding-left: 5px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+
+.searchbar input {
+    height: 30px;
+    background-color: #ccc;
+    margin-top: -10px;
+}
+
+/* 顶部导航栏 */
+.hd_nav {
+    height: 50px;
+    background-color: #0B223E;
+}
+   
+.hd_nav .box_in {
+    height: 50px;
+    background-color: #0B223E;
+    position: relative;
+}
+
+.hd_nav li {
+    float: left;
+    width: 100px;
+    height: 50px;
+    margin-right: 20px;
+    line-height: 50px;
+}
+
+.hd_nav li a {
+    color: #ddd;
+    font-size: 30px;
+    
+}
+
+.hd_nav li:hover a {
+    font-weight: bold;
+    color: #fff;
+}
+
+/* 小游戏的分栏 */
+.hd_nav .game-layer {
+    display: none;
+    width: 100px;
+    background-color: #0B223E;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+}
+.hd_nav .game:hover .game-layer {
+    display: block;
+}
+
+.hd_nav .game-layer .item a{
+    font-size: 16px;
+    font-weight: normal;
+    color: #ccc;
+}
+
+/* 侧边栏 */
+.section_box {
+    width: 50px;
+    height: 200px;
+    background-color: #ccc;
+    opacity: .5;
+    border-radius: 5px;
+    position: fixed;
+    right: 100px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.section_box .upup {
+    width: 50px;
+    height: 50px;
+    font-size: 50px;
+    color: #fff;
+}
+
+/* 底部盒子 */
+footer {
+    height: 300px;
+}
+
+.foooter_box {
+    height: 300px;
+    background-color: #515151;
+    /* margin-top: 30px; */
+    text-align: center;
+}
